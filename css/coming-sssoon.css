@@ -761,6 +761,7 @@ button{
 }
 
 .logo-image {
+    margin-top: 80px;
 }
 
 .main .motto{
@@ -774,11 +775,14 @@ button{
     margin-top: 50px;
 
 }
+
+
+
 .main .subscribe .info-text{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 40px;
-    font-family: 'Lobster';    
+    font-family: 'Monda';    
 }
 #video_background {
     position: fixed;
@@ -825,6 +829,12 @@ button{
 
 .img-responsive{
     margin: 0 auto;
+}
+
+@media (min-width: 992px){
+.col-md-offset-4 {
+    margin-left: 29%;
+}
 }
 
 @media (min-width:219px){
